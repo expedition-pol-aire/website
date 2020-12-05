@@ -1,0 +1,14 @@
+.errorContainer{
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorContainer h1{
+  padding-top: 5vh;
+  color: #EFF0EB;
+  font-family: 'Berlin Sans FB Demi';
+}

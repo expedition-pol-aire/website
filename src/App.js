@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Home from './pages/home';
+import Trombi from './pages/trombi';
+import Programme from './pages/programme';
+import Contact from './pages/contact';
+import Error404 from './pages/error404';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+          <React.Suspense fallback={<div>{'loading'}</div>}>
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/trombinoscope" exact component={Trombi} />
+              <Route path="/programme" exact component={Programme} />
+              <Route path="/contact" exact component={Contact} />
+              <Route component={Error404} />
+            </Switch>
+          </React.Suspense>
+        </BrowserRouter>
   );
 }
 
