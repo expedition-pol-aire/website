@@ -1,6 +1,7 @@
 {
   "name": "expedition-pol-aire",
   "version": "0.1.0",
+  "homepage": "https://expedition-pol-aire.github.io/website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
