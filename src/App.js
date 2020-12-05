@@ -9,7 +9,7 @@ import Error404 from './pages/error404';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='website'>
           <React.Suspense fallback={<div>{'loading'}</div>}>
             <Switch>
               <Route path="/" exact component={Home} />
