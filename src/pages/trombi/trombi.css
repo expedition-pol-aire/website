@@ -4,8 +4,23 @@
 }
 
 .headerBackground{
-  height: 10vh;
+  position: fixed;
+  top:0;
+  z-index: 10;
+  height: 20vh;
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+
+@media screen and (max-width: 600px){
+  .headerBackground{
+    position: fixed;
+    top:0;
+    z-index: 10;
+    height: 10vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
 }

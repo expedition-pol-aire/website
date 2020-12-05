@@ -3,3 +3,11 @@
   background-size: cover;
   background-position: center;
 }
+
+@media screen and (max-width: 600px){
+  .homeContainer{
+    height: 100vh;
+    background-size: cover;
+    background-position: right;
+  }
+}

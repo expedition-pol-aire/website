@@ -4,8 +4,44 @@
 }
 
 .headerBackground{
-  height: 10vh;
+  position: fixed;
+  top:0;
+  z-index: 10;
+  height: 20vh;
   width: 100%;
   background-size: cover;
   background-position: center;
+}
+
+.programmeSubContainer{
+  padding-top: 5vh;
+  padding-left: 5vw;
+  margin-top: 20vh;
+  font-weight: bold;
+  color: #EFF0EB;
+  text-align: justify;
+  padding-right: 5vw;
+}
+
+@media screen and (max-width: 600px){
+  .headerBackground{
+    position: fixed;
+    top:0;
+    z-index: 10;
+    height: 10vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .programmeSubContainer{
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-bottom: 15vh;
+    margin-top: 10vh;
+    font-weight: bold;
+    color: #EFF0EB;
+    text-align: justify;
+    padding-right: 5vw;
+  }
 }
