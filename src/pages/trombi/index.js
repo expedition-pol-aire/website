@@ -10,6 +10,7 @@ function Trombi(){
       <Header/>
       <div className='headerBackground' style={{ backgroundImage: `url(${imgIndex[4]})`}}/>
       <div className='trombiSubContainer'>
+        <h1>Bientôt, bientôt...</h1>
       </div>
       <Footer/>
     </div>

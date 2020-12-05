@@ -3,6 +3,16 @@
   background-color: #173657;
 }
 
+.trombiSubContainer{
+  padding-top: 5vh;
+  padding-left: 5vw;
+  margin-top: 20vh;
+  font-weight: bold;
+  color: #EFF0EB;
+  text-align: justify;
+  padding-right: 5vw;
+}
+
 .headerBackground{
   position: fixed;
   top:0;
@@ -22,5 +32,16 @@
     width: 100%;
     background-size: cover;
     background-position: center;
+  }
+
+  .trombiSubContainer{
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-bottom: 15vh;
+    margin-top: 10vh;
+    font-weight: bold;
+    color: #EFF0EB;
+    text-align: justify;
+    padding-right: 5vw;
   }
 }
