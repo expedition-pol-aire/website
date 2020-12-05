@@ -10,7 +10,7 @@ const Header = () => {
   }
 
   var styleLoc = {
-    'text-decoration': "underline"
+    textDecoration: "underline"
   }
 
   return(

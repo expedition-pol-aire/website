@@ -5,6 +5,7 @@ import Error from './img/error.svg';
 import Header from './img/header.svg';
 import Facebook from './img/facebook.png';
 import Instagram from './img/instagram.png';
+import Mail from './img/mail.png';
 
 
 const imgIndex = [
@@ -14,7 +15,8 @@ const imgIndex = [
   Error,
   Header,
   Facebook,
-  Instagram
+  Instagram,
+  Mail
 ]
 
 export default imgIndex;
